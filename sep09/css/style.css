@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+}
+header {
+  height: 500px;
+  width: 20px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  letter-spacing: -5px;
+  position: absolute;
+}
+img.logo{
+width: 65px;
+height: auto;
+position: absolute;
+left: 3%;
+top: 5%
+}
+span {
+  color: hsl(194, 84%, 66%);
+}
+ul {
+  float: right;
+  width: 100%;
+}
+ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+img.bottom {
+  position: absolute;
+}
