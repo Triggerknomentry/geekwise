@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  border-bottom: solid black;
+  background-color: lightgreen;
+  padding: -5px;
+  border-right: transparent seagreen;
+}
+
+aside, article {
+  float: left;
+}
+
+aside {
+  width: 25%;
+  height: 500px;
+  background-color: gold;
+  float: right;
+}
+
+article {
+  width: 75%;
+  height: 500px;
+  background-color: silver;
+}
+
+main {
+  background-color: purple;
+}
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  height: 50px;
+  background-color: steelblue;
+}
