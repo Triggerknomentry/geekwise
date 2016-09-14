@@ -1,0 +1,84 @@
+body {
+  padding: 0 10px;
+}
+.acdc {
+  display: flex;
+  flex-wrap: wrap;
+}
+.acdc div {
+  flex: 50%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+section {
+  height: 500px;
+  flex-direction: column;
+}
+.acdc {
+  display: flex;
+}
+section > .acdc {
+  flex: 3;
+}
+section > div {
+  flex: 2;
+}
+section > div:nth-child(2){
+display: flex;
+ flex: 2;
+}
+section > div:nth-child(2) div {
+  flex: 1;
+}
+section div.div1{
+  flex: 1;
+  background-color: hsl(1, 68%, 40%);
+}
+section div.div2{
+  flex: .2;
+  background-color: hsl(109, 64%, 28%);
+}
+section div.div3,
+section div.div5 {
+  flex: 1;
+   background-color: hsl(246, 67%, 45%);
+}
+section div.div4,
+section div.div6{
+   background-color: hsl(300, 68%, 45%);
+       flex: 1;
+}*/
