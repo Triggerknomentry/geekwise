@@ -1,0 +1,43 @@
+body {
+  background-color:white;
+  font-family: sans-serif;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  color: hsl(288, 26%, 50%);
+  justify-content: center;
+}
+.container{
+  padding: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+.container > div{
+  width: 25%;
+}
+h4 {
+  color: hsl(287, 51%, 36%);
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+  color: hsl(282, 64%, 64%);
+}
+img {
+  width: 50%;
+  display:
+}
+div.div1 {
+   background-color: hsl(285, 3%, 76%);
+}
+div.div2 {
+  background-color: hsl(285, 3%, 76%);
+}
+div.div3 {
+  background-color: hsl(285, 3%, 76%);
+}
