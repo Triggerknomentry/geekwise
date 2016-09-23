@@ -1,1 +1,37 @@
-
+body {
+  font-family: sans-serif;
+  color: hsl(275, 51%, 47%);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+section:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+}
+hr {
+  margin-top: 100px;
+  border-color: hsl(264, 64%, 72%);
+  width: 5%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+section:nth-of-type(2) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+input {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+img {
+  justify-content: flex-start;
+}
