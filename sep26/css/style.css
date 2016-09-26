@@ -1,0 +1,47 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  margin: 0;
+  background-image: url(../img/banner.jpg);
+  height: 500px;
+  width: auto;
+  padding: 10px;
+}
+nav {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+div.nightmare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+button.screaming_eagles {
+  color: white;
+  border-color: white;
+  background-color: transparent;
+}
+section {
+  padding: 10px;
+}
+section {
+  display: flex;
+}
+section.primovictoria {
+  background-color: hsl(135, 67%, 33%);
+}
+div.sabaton {
+  background-color: hsl(138, 55%, 37%);
+}
+section.uprising {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

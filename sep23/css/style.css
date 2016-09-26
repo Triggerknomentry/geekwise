@@ -1,12 +1,19 @@
 body {
   font-family: sans-serif;
   color: hsl(275, 51%, 47%);
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+h1, h2, h3, h4, p{
+  margin: 0;
+}
+h2, h3, h4{
+  margin-top: 20px;
 }
 section:nth-of-type(1) {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: left;
 }
 hr {
   margin-top: 100px;
@@ -18,15 +25,13 @@ h1 {
   justify-content: center;
 }
 section:nth-of-type(2) {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: flex-star;
   flex-direction: column;
 }
 input {
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-end;
+  width: 50%;
 }
 footer {
   display: flex;
