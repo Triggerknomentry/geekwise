@@ -4,44 +4,103 @@ body {
   margin: 0;
 }
 header {
+  color: white;
   margin: 0;
   background-image: url(../img/banner.jpg);
   height: 500px;
-  width: auto;
+  width: 100%;
   padding: 10px;
 }
 nav {
+  display: flex;
+  flex-direction: column;
   color: white;
+}
+header ul li{
   text-decoration: none;
   display: flex;
+  justify-content: center;
   flex-direction: row;
+  order: 1;
 }
 div.nightmare {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: flex-start;
+  flex-direction: column;
+}
+h3.sparta {
+  text-align: center;
 }
 button.screaming_eagles {
   color: white;
-  border-color: white;
+  border-color: hsl(0, 0%, 100%);
   background-color: transparent;
-}
-section {
-  padding: 10px;
-}
-section {
-  display: flex;
+  padding: 17px;
+  width: 17%;
+  font-size: 20px;
 }
 section.primovictoria {
   background-color: hsl(135, 67%, 33%);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.hill_3234 {
+  text-align: center;
+  flex-direction: column;
+}
+i{
+  display: flex;
+  align-content: space-around;
+}
+p.ghost_division {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+ align-items: center;
+ padding: 10px;
+}
+.sabaton{
+  display: flex;
+  flex-direction: ;
 }
 div.sabaton {
   background-color: hsl(138, 55%, 37%);
 }
-section.uprising {
+.fa {
+  font-size: 75px;
+  border: 2px white solid;
+  border-radius: 100%;
+}
+section {
+  padding: 10px;
+}
+div.stalingrad {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+hr.night_witches {
+  width: 86.5%;
+  padding: 1px;
+}
+div.flexed {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  padding: 0 100px;
+}
+div.panzerkampf {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     padding: 5px;
+}
+div.the_lost_battalion {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+}
+button.rise_of_evil {
+align-content: center;
 }
