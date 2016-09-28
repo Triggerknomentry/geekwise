@@ -39,42 +39,54 @@ button.screaming_eagles {
   padding: 17px;
   width: 17%;
   font-size: 20px;
+  border: 1px white solid;
 }
 section.primovictoria {
   background-color: hsl(135, 67%, 33%);
-  align-self: center;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding: 10px 10px 10px;
+}
+section.primovictoria::before {
+  content: "";
+  position: absolute;
+  transform: rotate(1);
+  width: 50%;
+  height: auto;
+}
+section.primovictoria::after {
+  content: "";
+  position: relative;
+  transform: rotate(1);
+  width: 50%;
+  height: auto;
 }
 .hill_3234 {
   text-align: center;
   flex-direction: column;
 }
-i{
-  display: flex;
-  align-content: space-around;
-}
 p.ghost_division {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
- align-items: center;
- padding: 10px;
+  padding: 25px;
+  width: 75%;
 }
-.sabaton{
+div.fb{
   display: flex;
-  flex-direction: ;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
 }
 div.sabaton {
   background-color: hsl(138, 55%, 37%);
 }
 .fa {
-  font-size: 75px;
-  border: 2px white solid;
+  font-size: 90px;
+  border: 1px white solid;
   border-radius: 100%;
+  padding: 20px;
 }
-section {
-  padding: 10px;
+section.uprising {
+  margin: 0;
 }
 div.stalingrad {
   text-align: center;

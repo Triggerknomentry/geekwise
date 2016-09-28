@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+header nav h1 {
+  font-size: 40px
+  color: hsl(154, 69%, 37%);
+}
+header {
+  color: hsl(154, 69%, 37%);
+}
+ul {
+  display: inline-flex;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
