@@ -1,3 +1,4 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
 body {
   font-family: sans-serif;
   margin: 0;
@@ -9,10 +10,67 @@ header nav h1 {
 header {
   color: hsl(154, 69%, 37%);
 }
-ul {
-  display: inline-flex;
-  text-decoration: none;
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+ul li{
+  display: inline-block;
+}
+li.rawr {
+  border: 1px hsl(143, 75%, 37%) solid;
+  color: white;
+  background-color: hsl(158, 82%, 24%);
+  padding: 5px;
 }
 img {
   width: 100%;
+  margin-bottom: 0;
+}
+main {
+  margin-top: 0;
+  padding: 15px;
+}
+main.colorback {
+  background-color: hsl(0, 7%, 18%);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 97.6%;
+  text-align: center;
+}
+a {
+  color: black;
+}
+a.white2 {
+  color: white;
+}
+.fa {
+  font-size: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+section.camouflage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+}
+footer.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: hsl(0, 5%, 15%);
+  padding: 75px;
+}
+p.footer34 {
+  color: gray;
+  font-size: 88%;
+}
+div.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
