@@ -1,0 +1,49 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900';
+body {
+  margin: 0;
+}
+header {
+  color: white;
+  background-image: url(../img/home-slider-1-slide-1.jpg);
+  background-position: center;
+  height: 500px;
+}
+header h1 {
+  font-size: 500px;
+  text-align: center;
+}
+li.burn_baby_burn {
+  color: blue;
+}
+h1.big_word {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute
+  color: white;
+}
+img.vroom_vroom {
+  width: 100%;
+  position: absolute;
+}
+section.picture8 {
+  display: flex;
+}
+div.cars {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+section.cars_go_vroom {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  width: 99%;
+  padding: 5px;
+}
+h1.carcarscars {
+  font-size: 50px;
+  padding: 10px
+}
