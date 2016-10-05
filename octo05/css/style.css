@@ -1,0 +1,65 @@
+body {
+margin: 0;
+}
+header {
+  border: 20px solid #000;
+  background: hsl(61, 100%, 50%);
+  min-height: 100vh;
+  display: flex;
+}
+h1 {
+  font-size: 10vw;
+  margin: auto;
+}
+p {
+  -webkit-column-width: 300px;
+  -moz-column-width: 300px;
+  column-width: 300px;
+}
+/*body {
+  margin: 0;
+  font-size: 16px;
+}
+ul {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul li {
+  width: calc(100vw / 4);
+  display: inline-block;
+  background-color: green;
+  padding: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+ul::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+div {
+  width: 50vw;
+  height: 100vh;
+  float: left;
+  overflow: hidden;
+  background-image: url(http://unsplash.it/800/800?image=582);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div img {
+  position: relative;
+  left: -50%;
+  top: -50%;
+}
+h1 {
+  margin: 0;
+  font-size: 9vw;
+}
+p {
+  -moz-column-width: 200px;
+  column-width: 200px;
+}*/
