@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+header {
+  background-image: url(../img/slide-1.jpg);
+  background-position: right;
+  background-size: cover;
+  height: 595px;
+  width: 98.4%;
+  padding: 10.1px;
+}
+header ul li {
+  display: inline-block;
+}
+h2.birth {
+  color: white;
+}
+ul li {
+  justify-content: flex-end;
+}
+h1.zulu {
+  color: white;
+  font-size: 250px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+p.run {
+  margin: 0;
+  margin-bottom: 29px;
+}
+button {
+  color: white;
+  background-color: lightblue;
+  border: none;
+  height: 80px;
+  width: 198px;
+}
