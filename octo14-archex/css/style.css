@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 0;
+}
+header {
+  background-image: url(../img/slide-1.jpg);
+  background-position: top-center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vw;
+  background-color: hsla(0, 0%, 0%, .25);
+}
+
+nav h1 {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav h1 a {
+  display: inline-block;
+  width: 122px;
+  height: 100%;
+  opacity: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+nav li::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -200%;
+  left: 0;
+  background-image: linear-gradient(
+    hsla(189, 69%, 49%, .5),
+    hsla(189, 69%, 49%, 0),
+    hsla(0, 0%, 100%, .5)
+    );
+    transition: top 800ms ease-in-out;
+}
+nav li:hover::after {
+  top: 100%;
+}
+
+nav li span {
+  flex: none;
+  display: flex;
+  height: 100%;
+  transform: translateY(-100%);
+  transition: transform 600ms ease-in-out;
+}
+nav li span:first-child {
+  background-color: hsla(189, 69%, 49%, 0);
+  transition: background-color 400ms ease-in-out;
+}
+nav li span:last-child {
+  background-color: hsla(0, 0%, 100%, 0);
+  transition: background-color 400ms ease-in-out;
+}
+nav li:hover span {
+  transform: translateY(0%);
+}
+nav li:hover span:first-child {
+  background-color: hsla(189, 69%, 49%, 1);
+}
+nav li:hover span:last-child {
+  background-color: hsla(0, 0%, 100%, 1);
+}
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav li a {
+  display: flex;
+  align-items: center;
+
+}
+/*nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+nav ul li {
+  padding: 10px;
+}
+nav img {
+  padding-top: 27px;
+  padding-left: 35px;
+}
+*/
+h1.zulu {
+  color: white;
+  font-size: 150px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+p.run {
+  margin: 0;
+  margin-bottom: 29px;
+}
+button {
+  color: white;
+  background-color: lightblue;
+  border: none;
+  height: 80px;
+  width: 198px;
+}
+div.the_final_solution {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  color: white
+  /*background-color: hsl(189, 50%, 35%);*/
+}
+div.one {
+  background-color: hsl(181, 79%, 48%);
+  padding: 75px;
+  margin-left: 40px;
+}
+.one:hover {
+
+}
+div.two {
+  background-color: hsl(181, 79%, 48%);
+  padding: 59px;
+  margin-left: 25px;
+  margin-right: 24px;
+}
+div.three {
+  background-color: hsl(181, 79%, 48%);
+  padding: 44px;
+  margin-right: 40px;
+}
+p.fake_button_one {
+  background-color: white;
+  padding: 10px;
+  width: 53px;
+  color: hsl(181, 79%, 48%);
+}
+p.fake_button_two {
+  background-color: white;
+  padding: 10px;
+  width: 53px;
+  color: hsl(181, 79%, 48%);
+}
+p.fake_button_three {
+  background-color: white;
+  padding: 10px;
+  width: 53px;
+  color: hsl(181, 79%, 48%);
+}
