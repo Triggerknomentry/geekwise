@@ -1,0 +1,36 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  grid-template-areas:
+      'aside . header header header . .'
+      'aside . . main main . .'
+      'aside . . main main . .'
+      'aside foot foot foot foot foot foot';
+  grid-gap: 10px;
+}
+.a {
+  grid-area: header;
+  background-color: red;
+  /*grid-column: span 2;*/
+}
+.b {
+  grid-area: aside;
+  background-color: green;
+  /*grid-column: 1 / span 3;
+  grid-row: 2 / span 3;*/
+}
+.c {
+  grid-area: main;
+  background-color: yellow;
+  /*grid-column: 2;
+  grid-row: 3;*/
+  align-self: center;
+  justify-self: center;
+}
+.d {
+  grid-area: foot;
+  background-color: blue;
+  /*grid-column: 1;
+  grid-row: 1;*/
+}
