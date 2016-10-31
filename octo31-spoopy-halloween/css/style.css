@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+header {
+  background-image: url(../img/headbg.jpg);
+}
+header ul {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+main > section > div {
+  background-image: url(../img/leftbg.jpg);
+}
