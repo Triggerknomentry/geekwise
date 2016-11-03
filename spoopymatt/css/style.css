@@ -38,13 +38,15 @@ main::after {
   clear: both;
 }
 body > :first-child {
-  background-image: url(../img/pictop.jpg);
+  /*background-image: url(../img/pictop.jpg);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right bottom;*/
 }
-footer
 footer .container {
-  background-image: url(../img/picbottom.jpg);
+  position: relative;
+}
+footer .container {
+  /*background-image: url(../img/picbottom.jpg);
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: right top;*/
 }
