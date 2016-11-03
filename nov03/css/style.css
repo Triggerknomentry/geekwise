@@ -1,0 +1,56 @@
+html {
+  background-image: url(../img/headbg.jpg), url(../img/bobybg.jpg);
+  width: 100%;
+  background-position: center top;
+  background-repeat: repeat-x, no-repeat;
+  background-color: black;
+  color: white;
+}
+main {
+  margin-right: 207px;
+  margin-left: 208px;
+  margin-top: 110px;
+}
+section {
+  width: 64%;
+  float: left;
+  background-image: url(../img/leftbg.jpg);
+  background-repeat: no-repeat;
+  text-align: left;
+}
+aside {
+  width: 34%;
+  float: right;
+  background-image: url(../img/rightbg.png);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+div img:first-child {
+  position: absolute;
+  right: 10.9%;
+  top: 185%;
+}
+#mega div img:nth-child(3) {
+  position: absolute;
+  right: 0vw;
+  top: 0;
+}
+main::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+#mega div {
+  background-color: hsl(9, 83%, 9%);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+
+@media screen and (max-width:799px){
+
+}
+@media screen and (max-width:)
