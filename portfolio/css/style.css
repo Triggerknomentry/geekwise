@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header nav {
+  border-bottom: 2px solid black;
+}
+header nav ul li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: hsl(112, 74%, 24%);
+}
+main {
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin-left: 10px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 10%;
+}
+section div img {
+  position: relative;
+  display: flex;
+  width: 75%;
+}
+section div p {
+  display: flex;
+  justify-content: flex-end;
+}
