@@ -49,10 +49,10 @@ section {
   justify-content: space-around;
 }
 .skills {
-  border-top: 1px solid white;
+  /*border-top: 1px solid white;
   border-left: 1px solid white;
   border-right: 1px solid white;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid white;*/
   width: 10%;
 }
 .picture {
@@ -60,6 +60,10 @@ section {
   justify-content: center;
   width: 10%;
   border-radius: 50%;
+}
+.work1 {
+  /*width: 15px;
+  height: 10px;*/
 }
 section div h3 {
   text-align: left;
@@ -104,4 +108,22 @@ form {
 footer {
   display: flex;
   justify-content: center;
+  color: black;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:776px){
+  .primo {
+    display: flex;
+    justify-content: center;
+  }
+  .work1 {
+    width: 10%;
+  }
+
 }
