@@ -1,0 +1,10 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  background-color: #303030;
+  color: #999;
+  text-shadow: -1px -1px 0px #181818;
+}
