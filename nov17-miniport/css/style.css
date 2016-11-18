@@ -1,10 +1,95 @@
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 body {
   margin: 0;
-  padding: 0;
+  line-height: 1.85em;
 }
+/***** begin nav *****/
+#nav {
+  background-color: #282828;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#nav ul {
+  margin-bottom: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  margin: 0 auto;
+  width: 25%;
+}
+nav ul li {
+  list-style: none;
+  max-width: 35%;
+  padding: 3vw;
+}
+nav ul li:hover {
+  background-color: #888;
+  border-radius: 30%;
+  border: 4px solid #888;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+}
+/***** header begins *****/
+header {
+  background-color: #fff;
+  margin: 10% 4%;
+}
+h1 {
+  font-weight: 300;
+}
+.image img {
+  width: 30%;
+  border-radius: 100%;
+  float: left;
+  border: 2px solid hsla(52, 40%, 59%, 36%);
+}
+header h1 {
+  /*text-align: left;*/
+  /*font-size: 3em;*/
+}
+header div:nth-of-type(2) {
+  width: 70%;
+  min-width: 70%
+  float: right;
+}
+/***** begin of article *****/
+article {
+  background-color: #fafafa;
+  text-shadow: 1px 1px 0px #fff;
+}
+/***** begin of section *****/
+section {
+  background-color: #f4f4f4;
+  text-shadow: 1px 1px 0px #fff;
+}
+.icons {
+  display: flex;
+  text-align: center;
+}
+.icons i {
+  font-size: 100px;
+  color: lightpink;
+}
+/***** footer begins *****/
 footer {
   background-color: #303030;
   color: #999;
   text-shadow: -1px -1px 0px #181818;
 }
+hr {
+  border-top: solid 1px #444;
+  border-top-color: rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+}
+/***** tagging all  *****/
