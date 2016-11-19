@@ -7,6 +7,7 @@ body {
   background-color: #282828;
   text-align: center;
   position: fixed;
+  height: 12%;
   left: 0;
   top: 0;
   width: 100%;
@@ -28,7 +29,7 @@ nav ul {
 nav ul li {
   list-style: none;
   max-width: 35%;
-  padding: 3vw;
+  margin-top: 2em;
 }
 nav ul li:hover {
   background-color: #888;
@@ -43,49 +44,171 @@ nav ul li a {
 /***** header begins *****/
 header {
   background-color: #fff;
-  margin: 10% 4%;
+  margin: 19% 4%;
 }
 h1 {
   font-weight: 300;
 }
 .image img {
   width: 30%;
-  border-radius: 100%;
+  border-radius: 50%;
   float: left;
-  border: 2px solid hsla(52, 40%, 59%, 36%);
+  margin: 3px;
+  margin-right: 42px;
 }
 header h1 {
-  /*text-align: left;*/
-  /*font-size: 3em;*/
+  font-size: 5vw;
 }
 header div:nth-of-type(2) {
-  width: 70%;
-  min-width: 70%
-  float: right;
+  width: 90%;
+  min-width: 79%;
+  text-align: left;
+}
+header p {
+  margin-bottom: 2em;
+  font-size: 2.2vw;
+  word-spacing: 2px;
+}
+header a {
+  text-align: left;
+  background-color: #43B3E0;
+  font-size: 1.5em;
+  letter-spacing: -0.025em;
+  display: inline-block;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  border-radius: 8px;
 }
 /***** begin of article *****/
 article {
   background-color: #fafafa;
   text-shadow: 1px 1px 0px #fff;
+  padding: 7% 0;
+}
+article div:nth-of-type(1) {
+  text-align: center;
+}
+.icons {
+  display: flex;
+  text-align: center;
+  margin: 0;
+}
+.icons i {
+  font-size: 100px;
+  color: lightpink;
+}
+.icons div {
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+}
+article {
+  text-align: center;
+}
+article .eric h1 {
+  font-size: 3vw;
+}
+article h2 {
+  font-size: 3vw;
+}
+article h3 {
+  font-size: 1.53em;
+}
+article .bottom p{
+  line-height: 75px;
+  margin-bottom: 2em;
+}
+article a {
+  text-align: left;
+  background-color: #43B3E0;
+  font-size: 1.5em;
+  letter-spacing: -0.025em;
+  display: inline-block;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  border-radius: 8px;
 }
 /***** begin of section *****/
 section {
   background-color: #f4f4f4;
   text-shadow: 1px 1px 0px #fff;
 }
-.icons {
+section .top {
+  margin: 0;
+  text-align: center;
+  font-size: 2.2vw;
+  margin: 0;
+}
+section .top h1 {
+  margin: 0;
+}
+section .boxes {
   display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+section .boxes div {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 2vw;
+}
+section .down {
+  font-size: 1.5vw;
   text-align: center;
 }
-.icons i {
-  font-size: 100px;
-  color: lightpink;
+section .down a {
+  text-align: left;
+  background-color: #43B3E0;
+  font-size: 1.5em;
+  letter-spacing: -0.025em;
+  display: inline-block;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  border-radius: 8px;
 }
 /***** footer begins *****/
 footer {
   background-color: #303030;
   color: #999;
   text-shadow: -1px -1px 0px #181818;
+  padding: 10% 6%;
+}
+#footer {
+  text-align: center;
+}
+footer .top {
+  text-align: center;
+  font-size: 1.8vw;
+}
+footer .top h2 {
+  margin: 0;
+  color: #fff;
+}
+footer .email {
+  width: 100%;
+}
+footer .email ul {
+  padding: 0;
+}
+footer .email li {
+  list-style: none;
+}
+footer li {
+  list-style: none;
 }
 hr {
   border-top: solid 1px #444;
@@ -93,3 +216,6 @@ hr {
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 }
 /***** tagging all  *****/
+h1 h2 h3 h4 h5 h6 {
+  color: #3e3e3e;
+}
