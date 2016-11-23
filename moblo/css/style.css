@@ -11,7 +11,12 @@ p {
   margin: 0;
   padding: 0;
 }
-li {
+.run {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+.not_today {
   display: inline-flex;
 }
 a {
@@ -22,10 +27,69 @@ a {
 }
 section {
   background-color: hsl(9, 88%, 46%);
+  text-align: center;
+}
+.phones {
+  position: relative;
 }
 h1 {
   margin: 0;
+  color: white;
+  font-size:
 }
-.same {
-
+.fake_button {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 50%;
+  background-color: black;
+  color: white;
+}
+.grey_background {
+  margin: 0;
+  background-color: hsl(30, 1%, 77%);
+  display: flex;
+  justify-content: space-around;
+}
+.white_background {
+  margin-top: 135px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  text-align: left;
+  color: hsl(0, 0%, 34%);
+  display: flex;
+}
+ul {
+  text-decoration: none;
+}
+span {
+  color: #f25f43;
+  text-align: left;
+}
+.black {
+  color: black;
+}
+.black:hover {
+  color: #f25f43;
+}
+.no_left {
+  margin-left: -108px;
+}
+.bond {
+  text-align: center;
+  font-size: 10px;
+}
+.font {
+  font-size: 48px;
+}
+h2, h4 {
+  margin: 0;
+}
+footer {
+  background-color: black;
+  color: white;
 }
