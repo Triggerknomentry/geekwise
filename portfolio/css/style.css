@@ -1,6 +1,6 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 html {
-  background-image: url(../img/grass.jpeg);
+  background-image: url(../img/cosmos.jpg);
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,7 +20,8 @@ header nav ul li {
 }
 a {
   text-decoration: none;
-  color: white
+  color: white;
+  border: 10px;
 }
 a:hover {
   background-color: black;
@@ -94,6 +95,10 @@ i {
   width: 5px;
   color: white;
 }
+.russia {
+  display: flex;
+  justify-content: center;
+}
 .move {
   text-align: center;
 }
@@ -110,10 +115,6 @@ footer {
   justify-content: center;
   color: black;
 }
-
-
-
-
 
 
 
