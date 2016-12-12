@@ -56,11 +56,13 @@ section {
   border-bottom: 1px solid white;*/
   width: 10%;
 }
+.skills li {
+  text-decoration: none;
+}
 .picture {
   display: flex;
   justify-content: center;
-  width: 10%;
-  border-radius: 50%;
+  width: 15%;
 }
 .work1 {
   /*width: 15px;
@@ -119,12 +121,20 @@ footer {
 
 
 @media screen and (max-width:776px){
-  .primo {
+  .picture {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
-  .work1 {
-    width: 10%;
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  .work1 h2 {
+    display: flex;
+    text-align: center;
+  }
+  .make_small {
+    width: 100%;
   }
 
 }
