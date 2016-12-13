@@ -4,6 +4,7 @@ html {
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 body {
   margin: 0;
@@ -16,7 +17,7 @@ header nav ul {
   text-align: center;
 }
 header nav ul li {
-  display: inline-block;
+  display: flex;
 }
 a {
   text-decoration: none;
@@ -62,7 +63,8 @@ section {
 .picture {
   display: flex;
   justify-content: center;
-  width: 15%;
+  width: 117px;
+  margin-left: 47%;
 }
 .work1 {
   /*width: 15px;
@@ -123,7 +125,8 @@ footer {
 @media screen and (max-width:776px){
   .picture {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    width: 100%;
   }
   .skills {
     display: flex;
