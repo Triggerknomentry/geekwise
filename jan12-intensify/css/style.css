@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+h1 {
+  margin: 0;
+  font-family: Pacifico;
+  color: hsl(9, 89%, 67%);
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20%;
+  text-align: center;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0 100px;
+}
+#hero div {
+  width: 75%;
+}
+#hero .btn {
+  display: inline-block;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+nav div {
+  position: absolute;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  transition: all 250ms ease-out;
+  background-color: hsl(193, 68%, 45%);
+}
+nav div.open {
+  left: 0px;
+}
+nav div i {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+  color: white;
+}
+nav ul {
+  padding: 20px;
+}
+nav li {
+  border-bottom: 1px solid hsla(0, 0%, 100%, .25);
+}
+nav a {
+  display: inline-block;
+  padding: 15px 0;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-family: inherit;
+}
+.btn {
+  border: solid 1px lightgrey;
+  background-color: white;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: inherit;
+  text-decoration: none;
+}
+.btn-cta {
+  background-color: hsl(9, 87%, 66%);
+  border: none;
+  color: white;
+}
+#whitebackground {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+#words {
+  padding: 5%;
+}
+#words p {
+  padding-bottom: 20%;
+}
+.rightside {
+  text-align: right;
+}
+.leftside {
+  text-align: left;
+}
+#whitebackground img {
+  border-radius: 80%;
+}
+.someblue {
+  color: hsl(194, 100%, 26%);
+}
+.gray {
+  color: hsl(0, 0%, 64%);
+}
+#orangebackground {
+  text-align: center;
+  padding: 6%;
+  background-color: hsl(23, 87%, 51%);
+}
+#orangebackground p {
+  color: hsl(0, 1%, 72%);
+}
+.blanco {
+  color: white;
+}
+.leangreen {
+  font-style: italic;
+  font-size: 13px;
+}
+.white {
+  color: white;
+}
+.small {
+  font-size: 12px;
+}
+#threepics {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 30px;
+}
+.divpics {
+  width: 300px;
+  border: 1px solid rgb(199, 199, 199);
+}
+.makesmall {
+  height: 200px;
+  width: 300px;
+}
+#bluebackground {
+  background-color: hsl(181, 35%, 39%);
+  color: white;
+  margin-top: 10%;
+  padding: 10%;
+  text-align: center;
+}
+#bluebackground i {
+  padding: 5px;
+  color: rgb(199, 199, 199);
+}
+/*.h3 {
+  text-align: center;
+}*/
+hr {
+  width: 200px;
+  margin-top: 3;
+}
+
+@media (max-width: 800px) {
+#orangebackground {
+  display: flex;
+  flex-direction: column;
+}
+.phonepic{
+  background-image: url(../img/pic01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.phonepic img {
+  display: none;
+}
+}
+@media (max-width: 800px) {
+  #threepics{
+    display: flex;
+    flex-direction: column;
+  }
+}
