@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+.btn {
+  text-align: center;
+}
+button {
+  padding: 6px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}
+.comments {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  text-align: center;
+}
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.leftside {
+  display: flex;
+  justify-content: flex-start;
+  float: right;
+}
