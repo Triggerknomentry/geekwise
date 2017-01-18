@@ -1,0 +1,29 @@
+
+// headline styles
+
+$font-size: 12px;
+$font-family: Monospace;
+$color: lavender;
+
+//buttonstyles
+$btn-color: hsl(0, 100%, 50%);
+$bth-lite: invert( $btn-color );
+$btn-dark: complement( $btn-color );
+//$btn-lite: hsl(200, 45%, 70%);
+//$btn-dark: hsl(200, 45%, 30%);
+$li1: hsl(122, 90%, 16%);
+$li2: adjust-hue( $li1, 285deg );
+$li3: adjust-hue( $li1, 0deg );
+$li4: adjust-hue( $li1, 20deg );
+$li5: adjust-hue( $li1, 30deg );
+$li6: adjust-hue( $li1, 50deg );
+$li7: adjust-hue( $li1, 190deg );
+
+// COLOR FUNCTIONS
+/*
+  lighten( 2 arguments );
+  darken( 2 arguments );
+  invert( 1 argument );
+  complement( 1 argument );
+  adjust-hue( 2 argument )
+*/
