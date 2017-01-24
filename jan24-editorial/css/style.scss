@@ -1,0 +1,50 @@
+@import 'imports';
+
+body {
+  margin: 0;
+}
+header {
+
+}
+.bluebar {
+  width: 95%;
+  border: solid 3px hsl(176, 64%, 50%);
+}
+.halfhalf {
+  display: flex;
+  justify-content: center;
+}
+.makesmall {
+  height: 85%;
+  border-radius: 2%;
+}
+.toptwo {
+  display: flex;
+  flex-direction: row;
+}
+.bottomtwo {
+  display: flex;
+  flex-direction: row;
+}
+.bottompics img {
+  height: 100%;
+  border-radius: 3%;
+}
+.tophalf {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+.middlehalf {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+.bottomhalf {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
