@@ -48,3 +48,17 @@ header {
   flex-direction: row;
   text-align: center;
 }
+.makesmallaswell {
+  display: block;
+  justify-content: center;
+  height: 85%;
+  border-radius: 2%;
+}
+.generic p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.generic h3 {
+  text-align: center, left;
+}
