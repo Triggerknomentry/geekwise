@@ -1,4 +1,4 @@
-var mySnek = 'Snek is a right, a snek & snake',
+/var mySnek = 'Snek is a right, a snek & snake',
     myNumber = 2485,
     myBool = true,
     myFloat = 5.3,
@@ -75,7 +75,30 @@ alert('its not a number');
 var userName = prompt("What is your name?")
 var intro = "Hey you " + userName + " you’re finally awake. You were trying to cross the border right? Walked right into that Imperial ambush same as us and that thief over there.";
 alert(intro);
+var someDio = "Wait... You there. *Looks at" + userName + "Step forward." + userName + " steps forward* Who are you?"
+var enterRace =prompt("What race are you? Nord, High Elf, Orc, Breton, Argonian, Wood Elves?")
+var racePicked = enterRace +" ay? Welcome home fellow kingsman. Bad timing to return to the homeland in these troubling times."
+alert(racePicked)
 
+var differentRace = confirm('what race are you?')
+if(differentRace){
+  alert('Not many wood elves would choose to come alone to Skyrim.');
+  var race = woodelf;
+}else{
+  alert("You're not with the Thalmor Embassy, are you, high elf? No, that can't be right.");
+  var race = "High elf";
+}
+}else{
+  alert('You from one of the strongholds, Orc? How did you end up here?');
+  var race = "Orc";
+}else{
+  alert('You from Daggerfall, Breton? Fleeing from some court intrigue?');
+  var race = "Breton";
+}else{
+  alert('Are you a relative of one of the Riften dock workers, Argonian?');
+  var race = "Argonian";
+}
+var raceConfirm = 'This sucks ' + differentRace + ' for returning';
 
 var userResp = confirm('are you a boy');
 if(userResp){
