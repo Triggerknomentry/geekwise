@@ -36,8 +36,8 @@ h1 {
   text-align: center;
 }
 section {
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
   /*width: 50%;
   float: left;
   margin-left: 10px;*/
